@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { useData } from './hooks/useData';
 
 export default function App() {
+  const { fuelStations } = useData();
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Fuel Find</Text>
+      {fuelStations.map((station) => (
+        <Text key={station.Name}>{station.Name}</Text>
+      ))}
       <StatusBar style="auto" />
     </View>
   );

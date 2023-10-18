@@ -1,0 +1,25 @@
+{
+  "FuelStationList":[
+    {"DistanceFromSearchPostcode":1.15,"Brand":"ESSO","Name":"EASTON SERVICE STATION","Street":"EASTON ROAD","Suburb":"EASTON","Town":"BRISTOL","County":"BRISTOL, CITY OF","Postcode":"BS5 0ES","Latitude":51.461220,"Longitude":-2.567400,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":true,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":4,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":159.9,"InGbp":1.599,"TimeRecorded":"10/16/2023 2:44:00 PM"}},
+        {"FuelType":"Premium Diesel","LatestRecordedPrice":{"InPence":188.9,"InGbp":1.889,"TimeRecorded":"10/13/2023 6:50:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":175.9,"InGbp":1.759,"TimeRecorded":"10/12/2023 1:13:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":146.9,"InGbp":1.469,"TimeRecorded":"10/18/2023 7:20:00 AM"}}]},
+    {"DistanceFromSearchPostcode":3.73,"Brand":"MURCO","Name":"CONCORD SERVICE STATION","Street":"STOCKWOOD LANE","Suburb":"STOCKWOOD","Town":"BRISTOL","County":"BRISTOL, CITY OF","Postcode":"BS14 8SY","Latitude":51.410538,"Longitude":-2.542716,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":null,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":2,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":159.9,"InGbp":1.599,"TimeRecorded":"10/17/2023 6:23:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/17/2023 7:14:00 AM"}}]},
+    {"DistanceFromSearchPostcode":2.85,"Brand":"SAINSBURYS","Name":"SAINSBURYS BRISTOL ST GEORGE","Street":"NAGS HEAD HILL","Suburb":"ST GEORGE","Town":"BRISTOL","County":"BRISTOL, CITY OF","Postcode":"BS5 8QN","Latitude":51.454460,"Longitude":-2.525900,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":158.9,"InGbp":1.589,"TimeRecorded":"10/17/2023 6:45:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":159.9,"InGbp":1.599,"TimeRecorded":"10/17/2023 4:20:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/17/2023 9:51:00 PM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"SAINSBURYS CASTLE COURT","Street":"BLOOMFIELD ROAD LINK","Suburb":"BRISLINGTON","Town":"BRISTOL","County":"BRISTOL, CITY OF","Postcode":"BS4 3QA","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":157.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]}
+      ]
+  }
+  
