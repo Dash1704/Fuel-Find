@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { useData } from './hooks/useData';
+import { FindButton } from './components/FindButton';
 
 export default function App() {
   const { fuelStations } = useData();
   return (
     <View style={styles.container}>
       <Text>Fuel Find</Text>
-        {fuelStations.map((station) => (
+        {/* {fuelStations.map((station) => (
         <View key={station.Name}>
           <Text>{station.Name}</Text>
           {station.FuelPriceList.map((fuel) => (
@@ -16,7 +17,13 @@ export default function App() {
             </Text>
           ))}
         </View>
-        ))}
+        ))} */}
+        <FindButton 
+          title="Find Fuel Prices"
+          onPress={() => {
+            console.log('button pressed')
+          }}
+        />
       <StatusBar style="auto" />
     </View>
   );
