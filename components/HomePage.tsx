@@ -10,20 +10,10 @@ type StackList = {
 };
 
 export default function HomePage({ navigation }: StackScreenProps<StackList, 'Home'>) {
-  const { fuelStations } = useData();
   return (
     <View style={styles.container}>
       <Text style={styles.headerText}>Fuel Find</Text>
-        {/* {fuelStations.map((station) => (
-        <View key={station.Name}>
-          <Text>{station.Name}</Text>
-          {station.FuelPriceList.map((fuel) => (
-            <Text key={fuel.FuelType}>
-              {fuel.FuelType}: £{fuel.LatestRecordedPrice.InGbp} - Last Updated at: {fuel.LatestRecordedPrice.TimeRecorded}
-            </Text>
-          ))}
-        </View>
-        ))} */}
+
         <FindButton 
           title="Find Fuel Prices"
           onPress={() => {
