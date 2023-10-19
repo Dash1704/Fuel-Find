@@ -1,31 +1,33 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { useData } from './hooks/useData';
 import { FindButton } from './components/FindButton';
+import HomePage from './components/HomePage';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import ResultsPage from './components/ResultsPage';
+
+const Stack = createNativeStackNavigator<StackList>();
+
+type StackList = {
+  Home: undefined;
+  Results: undefined;
+};
 
 export default function App() {
-  const { fuelStations } = useData();
   return (
-    <View style={styles.container}>
-      <Text style={styles.headerText}>Fuel Find</Text>
-        {/* {fuelStations.map((station) => (
-        <View key={station.Name}>
-          <Text>{station.Name}</Text>
-          {station.FuelPriceList.map((fuel) => (
-            <Text key={fuel.FuelType}>
-              {fuel.FuelType}: £{fuel.LatestRecordedPrice.InGbp} - Last Updated at: {fuel.LatestRecordedPrice.TimeRecorded}
-            </Text>
-          ))}
-        </View>
-        ))} */}
-        <FindButton 
-          title="Find Fuel Prices"
-          onPress={() => {
-            console.log('button pressed')
-          }}
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen 
+          name="Home"
+          component={HomePage}
         />
-      <StatusBar style="auto" />
-    </View>
+        <Stack.Screen 
+          name="Results"
+          component={ResultsPage}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
