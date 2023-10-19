@@ -4,7 +4,7 @@ export function FindButton(props: any) {
   return (
     <View style={styles.button}>
       <TouchableOpacity onPress={props.onPress}>
-        <Text style={styles.button}>{props.title}</Text>
+        <Text style={styles.text}>{props.title}</Text>
       </TouchableOpacity>
     </View>
   )
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     height: 54,
     width: 207,
     borderRadius: 100,
+    backgroundColor: 'red'
   },
   text: {
     color: 'white',

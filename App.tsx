@@ -7,7 +7,7 @@ export default function App() {
   const { fuelStations } = useData();
   return (
     <View style={styles.container}>
-      <Text>Fuel Find</Text>
+      <Text style={styles.headerText}>Fuel Find</Text>
         {/* {fuelStations.map((station) => (
         <View key={station.Name}>
           <Text>{station.Name}</Text>
@@ -36,4 +36,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  headerText: {
+    fontSize: 50,
+    fontWeight: "800"
+  }
 });

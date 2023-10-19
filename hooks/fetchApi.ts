@@ -15,7 +15,7 @@ const requestData = {
 const fetchAPI = async () => {
   try {
     const response = await fetch(apiEndpoint, {
-      method: 'GET', // Or 'GET' depending on the API
+      method: 'GET', 
       headers: {
         'Content-Type': 'application/json',
       },
@@ -24,26 +24,10 @@ const fetchAPI = async () => {
 
     const data = await response.json();
 
-    // Handle the API response data here
     console.log('API response:', data);
   } catch (error) {
     console.error('API request failed:', error);
   }
 };
 
-// Call the fetchAPI function to make the request
 fetchAPI();
-
-
-
-
-// DataItems.FuelStationList
-
-// distanceFromSearchPostcode: number;
-// brand: string;
-// name: string;
-// street: string;
-// suburb: string;
-// town: string;
-// county: string;
-// postcode: string;
