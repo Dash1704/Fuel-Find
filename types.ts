@@ -7,4 +7,14 @@ export type FuelList = {
   Town: string;
   County: string;
   Postcode: string;
+  FuelPriceList: FuelPrice[];
+}
+
+export type FuelPrice = {
+  FuelType: string;
+  LatestRecordedPrice: {
+    InPence: number;
+    InGbp: number;
+    TimeRecorded: string;
+  }
 }
