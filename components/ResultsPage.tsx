@@ -1,4 +1,4 @@
-import { View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { useData } from '../hooks/useData';
 import Result from './Result';
 
@@ -13,3 +13,4 @@ export default function ResultsPage() {
     </View>
   )
 }
+
