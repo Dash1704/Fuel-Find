@@ -7,12 +7,18 @@ interface ResultProps {
 }
 
 export default function Result({ station }: ResultProps) {
+  const formatBritishDate = (date: string) => {
+    const dateOnly = date.split(' ')[0].split("/")
+    const flipDayAndMonth = [dateOnly[0], dateOnly[1]] = [dateOnly[1], dateOnly[0], dateOnly[2]]
+    return flipDayAndMonth.join("/")
+  }
+
   return (
     <View style={styles.stationContainer}>
       <Text style={styles.stationName}>{station.Name}</Text>
       {station.FuelPriceList.map((fuel) => (
         <Text key={fuel.FuelType} style={styles.fuelInfo}>
-          {fuel.FuelType}: £{fuel.LatestRecordedPrice.InGbp} - Last Updated at: {fuel.LatestRecordedPrice.TimeRecorded}
+          {fuel.FuelType} - £{fuel.LatestRecordedPrice.InGbp} - {formatBritishDate(fuel.LatestRecordedPrice.TimeRecorded)}
         </Text>
       ))}
     </View>
