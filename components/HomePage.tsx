@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {useState} from 'react'
+import { StyleSheet, Text, TextInput, View } from 'react-native';
 import { useData } from '../hooks/useData';
 import { FindButton } from './FindButton';
 import { StackScreenProps } from '@react-navigation/stack';
@@ -10,9 +11,16 @@ type StackList = {
 };
 
 export default function HomePage({ navigation }: StackScreenProps<StackList, 'Home'>) {
+  const [postCode, setPostCode] = useState('');
   return (
     <View style={styles.container}>
       <Text style={styles.headerText}>Fuel Find</Text>
+      <Text>Enter PostCode</Text>
+      <TextInput
+        style={styles.input} 
+        value={postCode}
+        onChangeText={(text) => setPostCode(text)}
+      />
 
         <FindButton 
           title="Find Fuel Prices"
@@ -35,5 +43,12 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 50,
     fontWeight: "800"
-  }
+  },
+  input: {
+    borderColor: 'black',
+    borderWidth: 1,
+    width: 200,
+    padding: 10,
+    marginTop: 10,
+  },
 });
