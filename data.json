@@ -19,7 +19,40 @@
       "FuelPriceList":[
         {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":157.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
         {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
-        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]}
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"TESCO","Name":"TESCO CASTLE COURT","Street":"IMPERIAL WAY","Suburb":"CHISLEHURST","Town":"KENT","County":"KENT","Postcode":"BR7 6JP","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":154.9,"InGbp":1.579,"TimeRecorded":"10/30/2023 7:37:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"PENGE MASSIVE","Street":"AVENUE ROAD","Suburb":"PENGE","Town":"LONDON","County":"BRISTOL, CITY OF","Postcode":"SE20 5AP","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+        "FuelPriceList":[
+          {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":116.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+          {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+          {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"BECKS CASTLE","Street":"BECKENHAM ROAD","Suburb":"BECKENHAM","Town":"LONDON","County":"BRISTOL, CITY OF","Postcode":"BR3 4UA","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":123.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"FUEL PLACE","Street":"SCOOTER STREET","Suburb":"HYDE PARK","Town":"LEEDS","County":"BRISTOL, CITY OF","Postcode":"LS6 1JJ","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":159.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"TOON ARMY","Street":"TOON AVENUE","Suburb":"NORTH SHIELDS","Town":"NEWCASTLE","County":"BRISTOL, CITY OF","Postcode":"NE5 3QA","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":177.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":161.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"MACKEM ARMY","Street":"MACKEM AVENUE","Suburb":"JAFFA","Town":"SUNDERLAND","County":"BRISTOL, CITY OF","Postcode":"SU2 9EP","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":127.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":149.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]},
+    {"DistanceFromSearchPostcode":1.64,"Brand":"SAINSBURYS","Name":"CANTONA FUEL","Street":"RED ARMY","Suburb":"OLD TRAFFORD","Town":"MANCHESTER","County":"BRISTOL, CITY OF","Postcode":"MA7 3QA","Latitude":51.443640,"Longitude":-2.558550,"Features":{"Fuel":{"HasUnleaded":true,"HasSuperUnleaded":true,"HasDiesel":true,"HasPremiumDiesel":null,"HasLpg":null,"HasEvCharging":null},"Services":{"HasCarWash":null,"HasTyrePump":null,"HasWater":null,"HasCashPoint":null,"HasCarVacuum":null}},"FuelPriceCount":3,
+      "FuelPriceList":[
+        {"FuelType":"Diesel","LatestRecordedPrice":{"InPence":124.9,"InGbp":1.579,"TimeRecorded":"10/18/2023 7:37:00 AM"}},
+        {"FuelType":"Super Unleaded","LatestRecordedPrice":{"InPence":144.9,"InGbp":1.619,"TimeRecorded":"10/13/2023 1:29:00 PM"}},
+        {"FuelType":"Unleaded","LatestRecordedPrice":{"InPence":139.9,"InGbp":1.499,"TimeRecorded":"10/18/2023 6:35:00 AM"}}]}
       ]
   }
   
