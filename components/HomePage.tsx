@@ -21,7 +21,6 @@ export default function HomePage({ navigation }: StackScreenProps<StackList, 'Ho
         value={postCode}
         onChangeText={(text) => setPostCode(text)}
       />
-
         <FindButton 
           title="Find Fuel Prices"
           onPress={() => {

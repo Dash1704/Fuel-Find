@@ -13,9 +13,14 @@ export default function Result({ station }: ResultProps) {
     return flipDayAndMonth.join("/")
   }
 
+  const stationAddress = (street: string, suburb: string, town: string, postCode: string) => {
+    return `${street}, ${suburb}, ${town}, ${postCode}`
+  }
+
   return (
     <View style={styles.stationContainer}>
       <Text style={styles.stationName}>{station.Name}</Text>
+      <Text style={styles.stationAddress}>{stationAddress(station.Street, station.Suburb, station.Town, station.Postcode)}</Text>
       {station.FuelPriceList.map((fuel) => (
         <Text key={fuel.FuelType} style={styles.fuelInfo}>
           {fuel.FuelType} - £{fuel.LatestRecordedPrice.InGbp} - {formatBritishDate(fuel.LatestRecordedPrice.TimeRecorded)}
@@ -33,6 +38,10 @@ const styles = StyleSheet.create({
   },
   stationName: {
     fontSize: 16,
+    fontWeight: 'bold',
+  },
+  stationAddress: {
+    fontSize: 14,
     fontWeight: 'bold',
   },
   fuelInfo: {
